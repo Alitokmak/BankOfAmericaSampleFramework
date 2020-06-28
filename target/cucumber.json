@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 19576167599,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User goes to BAO website",
+        "description": "",
+        "id": ";user-goes-to-bao-website",
+        "after": [
+          {
+            "result": {
+              "duration": 503354707,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1957062940,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User login on the page",
+            "match": {
+              "location": "LoginStepDefinition.user_login_on_the_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 538399829,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify thatpage title \"Bank of America - Banking, Credit Cards, Loans and Merrill Investing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bank of America - Banking, Credit Cards, Loans and Merrill Investing\"",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginStepDefinition.verify_thatpage_title(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "  As a user I should able to access BAO site",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/login.feature",
+    "tags": []
+  }
+]

@@ -15,7 +15,7 @@ public class Hook {
     @Before
     public void setup(Scenario scenario){
         Driver.getDriver().manage().window().maximize();
-        Driver.getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        Driver.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         Driver.getDriver().get(ConfigurationReader.getProperty("url"));
     }
 
