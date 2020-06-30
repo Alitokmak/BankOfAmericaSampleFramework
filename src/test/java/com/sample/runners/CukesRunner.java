@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
                 "html:target/default-cucumber-reports",
                 "rerun:target/rerun.txt"
         },
-        tags = {"@Login"},
+        tags = {"@credit_card"},
         features = {"src/test/resources/features"
         },
         glue = {"com/sample/step_definitions"},
