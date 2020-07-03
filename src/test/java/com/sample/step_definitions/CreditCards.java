@@ -20,15 +20,16 @@ public class CreditCards {
 
     @Then("verify that all credit cards options")
     public void verify_that_all_credit_cards_options(List<String> dataTable) {
-        for (String each : dataTable) {
-            BrowserUtils.getTextElements(each);
-        }
 //        int i = 0;
 //        for (WebElement each : creditCardsOptions.cashRewardsCards) {
 //            System.out.println(each.getText());
 //            Assert.assertEquals(dataTable.get(i), each.getText());
 //            i += 1;
 //        }
+//        System.out.println(dataTable);
 
+        //Assert.assertEquals(dataTable,creditCardsOptions.getColumnNames());
+        System.out.println(creditCardsOptions.getColumnNames());
+        System.out.println(dataTable);
     }
 }

@@ -2,28 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f373dee-21f0-4ce7-962b-35b3b2b1f188" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sample/pages/creditCards/creditCardsOptions/CreditCardsOptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sample/step_definitions/CreditCards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sample/utilities/BrowserUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Login/CreditCard.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Login/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sample/pages/creditCards/creditCardsOptions/CardsForStudents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sample/pages/creditCards/creditCardsOptions/CardsToBuildOrRebuildCredit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sample/pages/creditCards/creditCardsOptions/CashRewardsCreditCards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sample/pages/creditCards/creditCardsOptions/LowerInterestRateCards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sample/pages/creditCards/creditCardsOptions/PointsRewardsCards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sample/pages/creditCards/creditCardsOptions/TravelRewardsCreditCards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sample/step_definitions/CashRewardsCreditCardsApplyStepDefiniton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Login/CashRewardsCreditCardsApply.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sample/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sample/pages/login/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sample/pages/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sample/pages/login/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sample/pages/creditCards/cashRewardsCreditCards/BankOfAmericaCashRewards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sample/pages/creditCards/cashRewardsCreditCards/BankOfAmericaCashRewards.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sample/pages/creditCards/creditCardsOptions/CreditCardsOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sample/pages/creditCards/creditCardsOptions/CreditCardsOptions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/sample/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sample/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sample/runners/FailedRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sample/runners/FailedRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sample/step_definitions/LoginStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sample/step_definitions/LoginStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sample/step_definitions/CreditCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sample/step_definitions/CreditCards.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sample/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sample/utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sample/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sample/utilities/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/embedded0.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/embedded0.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/rerun.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sample/pages/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sample/pages/Login.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/sample/pages/creditCards/cashRewardsCreditCards/BankOfAmericaCashRewards.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/sample/pages/creditCards/cashRewardsCreditCards/BankOfAmericaCashRewards.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sample/pages/creditCards/creditCardsOptions/CreditCardsOptions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/sample/pages/creditCards/creditCardsOptions/CreditCardsOptions.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/sample/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/sample/runners/CukesRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sample/runners/FailedRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/sample/runners/FailedRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sample/step_definitions/LoginStepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/sample/step_definitions/LoginStepDefinition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sample/step_definitions/CreditCards.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/sample/step_definitions/CreditCards.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sample/utilities/BrowserUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/sample/utilities/BrowserUtils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,27 +125,36 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1593472198552">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state x="100" y="100" width="1240" height="703" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1593752354020">
+      <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900@0.0.1440.900" timestamp="1593472084239" />
     <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.798@0.23.1440.798" timestamp="1593472198552" />
-    <state width="1398" height="181" key="GridCell.Tab.0.bottom" timestamp="1593471979905">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="100" y="100" width="1240" height="703" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.801@0.23.1440.801" timestamp="1593752354020" />
+    <state width="1398" height="2" key="GridCell.Tab.0.bottom" timestamp="1593752605551">
+      <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state width="1398" height="181" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593471979905" />
-    <state width="1398" height="181" key="GridCell.Tab.0.center" timestamp="1593471979903">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="234" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593656308900" />
+    <state width="1398" height="353" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1593720942741" />
+    <state width="1398" height="2" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1593752605551" />
+    <state width="1398" height="2" key="GridCell.Tab.0.center" timestamp="1593752605546">
+      <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state width="1398" height="181" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593471979903" />
-    <state width="1398" height="181" key="GridCell.Tab.0.left" timestamp="1593471979901">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="234" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593656308893" />
+    <state width="1398" height="353" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1593720942740" />
+    <state width="1398" height="2" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1593752605546" />
+    <state width="1398" height="2" key="GridCell.Tab.0.left" timestamp="1593752605545">
+      <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state width="1398" height="181" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593471979901" />
-    <state width="1398" height="181" key="GridCell.Tab.0.right" timestamp="1593471979904">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="234" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593656308890" />
+    <state width="1398" height="353" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1593720942724" />
+    <state width="1398" height="2" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1593752605545" />
+    <state width="1398" height="2" key="GridCell.Tab.0.right" timestamp="1593752605550">
+      <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state width="1398" height="181" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593471979904" />
+    <state width="1398" height="234" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593656308894" />
+    <state width="1398" height="353" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1593720942740" />
+    <state width="1398" height="2" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1593752605550" />
     <state x="171" y="42" key="SettingsEditor" timestamp="1593395050315">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

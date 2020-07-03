@@ -1,4 +1,4 @@
-package com.sample.pages;
+package com.sample.pages.login;
 
 import com.sample.utilities.Driver;
 import org.openqa.selenium.support.PageFactory;
